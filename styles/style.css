@@ -24,7 +24,7 @@
 html, body {
     height: 100%;
     color: #E1D8B7;
-    
+    font-family: BentonSansRegular;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -47,10 +47,34 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     font-size: 72px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 #car {
     margin: 150px auto;
     width: 400px;
+}
+
+#pass {
+    position: relative;
+    font-size: 26px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+#buttons {
+    margin: 100px auto;
+    width: 200px;
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#tunnel {
+    width: 600px;
+    margin: 0 auto;
 }
