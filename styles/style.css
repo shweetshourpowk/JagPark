@@ -1,0 +1,56 @@
+
+
+/*Crimson - #7D110C*/
+/*Cream - #E1D8B7*/
+/*Steel - #82786F*/
+/*Old Gold - #C59217*/
+/*Mahogany - #4A3C31*/
+
+@font-face {
+    font-family: 'BentonSansRegular';
+    src: url('https://fonts.iu.edu/fonts/benton-sans-regular.eot');
+    src: url('https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://fonts.iu.edu/fonts/benton-sans-regular.woff') format('woff'),
+    url('https://fonts.iu.edu/fonts/benton-sans-regular.ttf') format('truetype'),
+    url('https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    color: #E1D8B7;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 5px;
+}
+
+.content {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #7D110C;
+}
+
+#title {
+    position: relative;
+    font-size: 72px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#car {
+    margin: 150px auto;
+    width: 400px;
+}
