@@ -31,21 +31,65 @@ body {
   height: 200px;
   margin-top: 15%;
 }
+@font-face {
+  font-family: BentonSans;
+  src: url('/fonts/benton-sans-comp-regular.ttf');
+}
 #firstView {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #7d110c;
   box-shadow: 0 10px 2px -2px #292929;
+  font-family: BentonSans, sans-serif;
+}
+#firstView .headingContainer {
+  width: 70%;
+  height: 10%;
+  margin: 20% auto 0;
+  text-align: center;
+}
+#firstView .headingContainer h1 {
+  color: #e1d8b7;
+}
+#firstView #buttonContainer {
+  width: 70%;
+  height: 40%;
+  position: relative;
+  top: 12%;
+  margin: 5% auto 0;
+}
+#firstView #buttonContainer button {
+  display: block;
+  width: 100%;
+  margin: 10px auto 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #e1d8b7;
+  outline: none;
+  font-family: BentonSans, sans-serif;
+  color: #e1d8b7;
+  font-size: 14px;
+}
+#firstView #bottomImage {
+  width: 100%;
+  height: 36%;
+}
+#firstView #bottomImage img {
+  width: 100%;
+  height: 100%;
 }
 #secondView {
   width: 100%;
   height: 100%;
   background-color: #7d110c;
   position: absolute;
+  font-family: BentonSans, sans-serif;
 }
 #thirdView {
   width: 100%;
   height: 100%;
   position: absolute;
+  font-family: BentonSans, sans-serif;
 }
