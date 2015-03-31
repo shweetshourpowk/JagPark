@@ -41,8 +41,10 @@ body {
   width: 100%;
   height: 100%;
   background-color: #3377aa;
+  text-align: center;
 }
 #splashScreen img {
-  width: 50%;
-  height: 50%;
+  width: 230px;
+  height: 200px;
+  margin-top: 15%;
 }
