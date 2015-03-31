@@ -22,13 +22,16 @@ body {
 #firstView {
   width: 100%;
   height: 100%;
+  position: absolute;
 }
 #secondView {
   width: 100%;
   height: 100%;
   background-color: #c59127;
+  position: absolute;
 }
 #thirdView {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: #7d110c;
