@@ -86,6 +86,7 @@ body {
   background-color: #7d110c;
   position: absolute;
   font-family: BentonSans, sans-serif;
+  overflow-y: hidden;
 }
 #secondView #backButton {
   width: 50px;
