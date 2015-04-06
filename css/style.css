@@ -104,6 +104,7 @@ body {
   height: 10%;
   margin: 60px auto 0;
   background-color: #c59127;
+  border-radius: 5px;
 }
 #secondView #timeSelector h1 {
   float: left;
@@ -127,6 +128,7 @@ body {
   height: 10%;
   margin: 20px auto;
   background-color: #e1d8b7;
+  border-radius: 5px;
 }
 #secondView .listItem h3 {
   float: left;
