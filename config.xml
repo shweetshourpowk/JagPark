@@ -16,7 +16,7 @@
         Jon Cunningham, Ryan McCrory, Chanie Mobley
     </author>
 
-    <icon src="img/jagLogo" />
+    <icon src="img/jagLogo.png" />
 
     <access uri="*" subdomains="true" />
     <access origin="*" subdomains="true" />
