@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "ryanmccrory.com"
+        versionCode="10"
+        version = "0.0.1">
+
+
+    <name>JagPark</name>
+
+    <description>
+        This app will help you find a parking space on IUPUI campus.
+    </description>
+
+    <author href="https://ryanmccrory.com" email="rmccrory1993@gmail.com">
+        Jon Cunningham, Ryan McCrory, Chanie Mobley
+    </author>
+
+    <icon src="img/jagLogo" />
+
+    <access uri="*" subdomains="true" />
+    <access origin="*" subdomains="true" />
+
+
+</widget>
