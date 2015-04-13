@@ -14,7 +14,7 @@
   .headingContainer{
     width: 70%;
     height: 10%;
-    margin: 20% auto 0;
+    margin: 5% auto 0;
     text-align: center;
 
     h1{
@@ -26,21 +26,28 @@
     width: 70%;
     height: 40%;
     position: relative;
-    top: 12%;
-    margin: 5% auto 0;
+    top: 10%;
+    margin: 0 20% 5%;
 
     button{
       display: block;
-      width: 100%;
-      margin: 10px auto 10px;
+      width: 35%;
+      margin: 10px auto 10px 15px;
       padding: 10px;
       border-radius: 10px;
       background-color: transparent;
-      border: 1px solid @cream;
+      border: none;
       outline: none;
       font-family: BentonSans, sans-serif;
       color: @cream;
       font-size: 14px;
+      float: left;
+      cursor: pointer;
+
+      img {
+        height: 50%;
+        width: 100%;
+      }
     }
   }
 
@@ -61,7 +68,7 @@
   background-color: @crimson;
   position: absolute;
   font-family: BentonSans, sans-serif;
-  overflow-y: hidden;
+  overflow: scroll;
 
   #backButton{
     width: 50px;
