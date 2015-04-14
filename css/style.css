@@ -152,6 +152,9 @@ body {
   top: 12px;
   right: 10px;
 }
+#secondView .listItem .display {
+  display: block;
+}
 #thirdView {
   width: 100%;
   height: 100%;

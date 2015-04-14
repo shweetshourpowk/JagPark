@@ -45,23 +45,23 @@
                 <option value="11pm">11:00 p.m.</option>
             </select>
         </div>
-        <div class="listItem">
+        <div class="listItem display">
             <h3>Blackford Garage</h3>
             <img src="img/gar.png" alt=""/>
         </div>
-        <div class="listItem">
+        <div class="listItem display">
             <h3>Wilson St Garage</h3>
             <img src="img/gar.png" alt=""/>
         </div>
-        <div class="listItem">
+        <div class="listItem display">
             <h3>Vermont Street</h3>
             <img src="img/gar.png" alt=""/>
         </div>
-        <div class="listItem">
+        <div class="listItem display">
             <h3>North Street</h3>
             <img src="img/gar.png" alt=""/>
         </div>
-        <div class="listItem">
+        <div class="listItem display">
             <h3>Sports Complex</h3>
             <img src="img/gar.png" alt=""/>
         </div>
@@ -304,10 +304,10 @@
             <h1>What kind of pass do you have?</h1>
         </div>
         <div id="buttonContainer">
-            <button id="st"><img src="img/stpass.png" /></button>
-            <button id="nc"><img src="img/ncpass.png" /></button>
-            <button id="ch"><img src="img/chpass.png" /> </button>
-            <button id="no"><img src="img/nopass.png" /> </button>
+            <button id="st"><img src="img/stpass.png" onclick="getValue(0)"/></button>
+            <button id="nc"><img src="img/ncpass.png" onclick="getValue(1)"/></button>
+            <button id="ch"><img src="img/chpass.png" onclick="getValue(2)"/> </button>
+            <button id="no"><img src="img/nopass.png" onclick="getValue(3)"/> </button>
         </div>
         <div id="bottomImage">
             <img src="img/iupuiImage.jpg" alt=""/>
@@ -322,5 +322,14 @@
     <script src="lib/jquery.min.js"></script>
     <script src="lib/jquery.transit.js"></script>
     <script src="lib/script.js"></script>
+<script>
+    function getValue(val){
+        alert(val);
+
+        if (val === 1){
+            $(".display").style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>
