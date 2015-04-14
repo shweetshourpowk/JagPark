@@ -155,6 +155,10 @@ body {
 #secondView .listItem .display {
   display: block;
 }
+#secondView .gar img {
+  height: 40px;
+  width: 50px;
+}
 #thirdView {
   width: 100%;
   height: 100%;
