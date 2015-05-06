@@ -162,6 +162,8 @@ body {
 #thirdView {
   width: 100%;
   height: 100%;
+  background-color: #7d110c;
   position: absolute;
   font-family: BentonSans, sans-serif;
+  overflow: hidden;
 }

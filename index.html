@@ -19,7 +19,7 @@
         <div id="timeSelector">
             <h1>Time: </h1>
             <select name="clock" id="clock" onchange="setClock()">
-                <option selected></option>
+                <option selected id="test1"></option>
                 <option value="12am">12:00 a.m.</option>
                 <option value="1am">1:00 a.m.</option>
                 <option value="2am">2:00 a.m.</option>
@@ -301,7 +301,7 @@
             <h1>What kind of pass do you have?</h1>
         </div>
         <div id="buttonContainer">
-            <button id="st"><img src="img/stpass.png" /></button>
+            <button id="st" onclick="timeNow(test1)"><img src="img/stpass.png" /></button>
             <button id="nc"><img src="img/ncpass.png" /></button>
             <button id="ch"><img src="img/chpass.png" /> </button>
             <button id="no"><img src="img/nopass.png"/> </button>
