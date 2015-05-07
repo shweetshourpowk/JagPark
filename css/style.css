@@ -132,19 +132,22 @@ body {
   font-family: BentonSans, sans-serif;
   font-size: 12px;
 }
-#secondView .listItem {
+#secondView #areaContainer {
+  height: 100%;
+}
+#secondView #areaContainer .listItem {
   width: 90%;
   height: 10%;
   margin: 20px auto;
   background-color: #e1d8b7;
   border-radius: 5px;
 }
-#secondView .listItem h3 {
+#secondView #areaContainer .listItem h3 {
   float: left;
   margin-top: 18px;
   padding-left: 8px;
 }
-#secondView .listItem img {
+#secondView #areaContainer .listItem img {
   width: 100px;
   height: 40px;
   float: right;
@@ -152,7 +155,7 @@ body {
   top: 12px;
   right: 10px;
 }
-#secondView .listItem .display {
+#secondView #areaContainer .listItem .display {
   display: block;
 }
 #secondView .gar img {
